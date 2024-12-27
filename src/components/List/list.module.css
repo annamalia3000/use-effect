@@ -1,0 +1,21 @@
+.users-list {
+  box-sizing: border-box;
+  text-align: left;
+  width: 180px;
+  color: black;
+  border: 1px solid black;
+  border-bottom: none;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.user-item {
+  padding: 5px;
+  border-bottom: 1px solid black;
+  cursor: pointer;
+}
+
+.user-item:hover {
+  background-color: blue;
+}
